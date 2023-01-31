@@ -11,6 +11,7 @@ import { AlyofontsComponent } from './alyofonts/alyofonts.component';
 import { AlyocoloriComponent } from './alyocolori/alyocolori.component';
 import { AlyobottoneswitchComponent } from './alyobottoneswitch/alyobottoneswitch.component';
 import { ImpostazioniComponent } from './impostazioni/impostazioni.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 @NgModule({
@@ -28,6 +29,7 @@ import { ImpostazioniComponent } from './impostazioni/impostazioni.component';
     BrowserModule,
     AppRoutingModule,
     FontAwesomeModule,
+    NgbModule,
 
   ],
   providers: [],
